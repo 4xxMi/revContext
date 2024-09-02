@@ -8,10 +8,10 @@ export default function App() {
   let tema = useContext(TemaContext);
   return (
     <TemaProvider>
-          <PaperProvider theme={tema}>
-            <HomeScreen />
-            <TrocaTema />
-          </PaperProvider>
+      <PaperProvider theme={tema}>
+        <HomeScreen />
+        <TrocaTema />
+      </PaperProvider>
     </TemaProvider>
   );
 }
